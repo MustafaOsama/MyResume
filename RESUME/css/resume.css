@@ -1,0 +1,72 @@
+/* CSS Document */
+
+.Header{
+	background-image:url("../images/groundback.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'EB Garamond', serif;
+	font-size: 2em;
+	font-display: block;
+	margin-top:0;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #2B005A;
+	color: azure;
+ 
+}
+.menu{
+	text-align: left;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin-bottom: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: brown;
+	background-color: lightskyblue;
+	display: block;
+	padding: 10 0 10 0;
+	margin-bottom: 5px;
+}
+nav ul li a:hover{
+	background-color: aquamarine;
+}
+nav ul{
+	list-style: none;
+	padding-left : 0;
+	
+}
+
+.footer{
+	background-color: lightslategrey;
+	color:black;
+	font-size: 0.6em;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width:600px){
+	
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1;
+		margin: 50px;
+	}
+	.feature-images{
+		display: flex;
+	}
+	.image-one{
+		flex:1;
+		width: 100px;
+		padding-top: 40px;
+	}
+	.image-two{
+		flex: 1;
+		width: 100px;
+	}
+}
